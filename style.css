@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #FAFAFA;
+    height: 100%;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+.container {
+    /* border: 1px solid black; */
+    width: 370px;
+    height: 530px;
+    margin: 85px auto 120px;
+}
+.content-container {
+    /* border: 1px solid lightgray; */
+    background-color: #FAFAFA;
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+.first-container {
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    padding: 30px 35px 5px;
+    background-color: white;
+}
+.logo {
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 160px;
+    background-image: url('https://assets.codepen.io/6060109/ig-logo.png');
+    background-size: 150%;
+    background-position: center;
+    margin: 0px auto 20px;
+}
+form {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+form > input {
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin: 5px 0;
+}
+input[type="text"], input[type="password"] {
+    border: 1px solid lightgray;
+    font-size: 11px;
+    font-weight: 200;
+    background-color: rgb(247, 247, 247);
+}
+input[type="text"]:focus, input[type="password"]:focus {
+    border: 1px solid gray;
+    border: 1px solid lightgray;
+    pointer-events: visiblePainted;
+}
+
+.sub {
+    background-color: #55bbff83;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    display: block;
+    margin: 12px 0;
+    color: white;
+    padding: 5px;
+}
+.or {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+.or > h5 {
+    padding: 10px 20px;
+    color: rgba(133, 133, 133, 0.959);
+    font-weight: 500;
+}
+.line {
+    border: none;
+    background-color: rgba(190, 190, 190, 0.959);
+    width: 50%;
+    height: .1px;
+} 
+.f-book > a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 15px auto;
+    text-decoration: none;
+    color: #385185;
+    font-size: 13px;
+    font-weight: 600;
+}
+.f-book > a > p {
+    font-size: 11px;
+    font-weight: 450;
+    
+}
+.second-container {
+    /* display: flex; */
+    background-color: white;
+    /* height: auto; */
+    margin: 10px auto 0px;
+    border: 1px solid lightgray;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 350;
+}
+.second-container > p {
+    display: block;
+    padding: 19px;
+}
+.second-container a {
+    text-decoration: none;
+    color: rgba(var(--d69,0,149,246),1);
+    font-weight: 600;
+}
+.get-app > p {
+    display: block;
+    text-align: center;
+    padding: 19px 0 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.app-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-box img {
+    height: 37px;
+    margin: 0 4px 3px;
+}
+
+footer {
+    padding: 0px;
+    text-align: center;
+}
+.bottom {
+    margin-bottom: 50px;
+}
+
+.bottom-links > a, .inst > p, select {
+    font-size: 11px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #8e8e8e;
+    display: inline-block;
+    margin: 0 6px 10px 6px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+}
+.lang-inst {
+    display: flex;
+    justify-content: center;
+}
+select {
+    outline: none;
+}
+
+@media screen and (min-width: 878px){
+    .container {
+        width: 700px;
+        display: flex;
+    }
+    .content-container {
+        width: 50%;
+        height: 100%;
+        padding-left: 10px;
+    }
+    
+    .frame {
+        width: 350px;
+        display: flex;
+        border: 3px solid lightgray; 
+        border-radius: 10px;  
+        background-color: white;
+    }
+    .img-container {
+        border: 2px solid lightgray;
+        width: 270px;
+        height: 470px;
+        margin: auto;
+        background-image: url('https://assets.codepen.io/6060109/IG-phone.jpeg');
+        background-size: contain;
+        background-position: top;
+    }
+}
